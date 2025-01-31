@@ -2,10 +2,10 @@
 // La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
 // 2. Esporta la funzione dal file.
 
-function names(firstName, lastName){
+function fullName(firstName, lastName){
     return {firstName, lastName};
 };
 
-console.log(names("Mirko","Caccavone"));
+// console.log(names("Mirko","Caccavone"));
 
-module.exports = names;
+module.exports = {fullName};

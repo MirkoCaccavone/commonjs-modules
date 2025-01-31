@@ -4,7 +4,9 @@
 
 function hobbies(hobbyOne, hobbyTwo, hobbyThree){
     return [hobbyOne, hobbyTwo,hobbyThree];
-}
+};
 
-console.log(hobbies("calcio", "pesca", "tennis"));
+module.exports = {hobbies};
+
+// console.log(hobbies("calcio", "pesca", "tennis"));
 
