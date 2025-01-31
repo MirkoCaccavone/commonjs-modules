@@ -8,4 +8,4 @@ function fullName(firstName, lastName){
 
 // console.log(names("Mirko","Caccavone"));
 
-module.exports = {fullName};
+module.exports = fullName;

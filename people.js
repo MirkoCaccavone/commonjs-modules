@@ -4,9 +4,9 @@
 // La funzione dovrebbe restituire un oggetto con due proprietà: fullName ed hobbies. All’interno della tua funzione, usa le tue due funzioni precedenti per costruire l’oggetto.
 
 
-const {fullName} = require("./names");
+const fullName = require("./names");
 
-const {hobbies} = require("./hobbies");
+const hobbies = require("./hobbies");
 
 function finalObj(){
     return {
